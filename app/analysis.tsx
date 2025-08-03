@@ -531,7 +531,7 @@ export default function AnalysisScreen() {
             ]}
           >
             <Image
-              source={require('../assets/images/campov4-horizontal.png')}
+              source={require('../assets/images/campov3-horizontal.png')}
               style={styles.fieldBackgroundImage}
               resizeMode="cover"
             />
