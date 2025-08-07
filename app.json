@@ -15,13 +15,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fortunato.interiorstats"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#121212"
-      }
+      },
+      "package": "com.fortunato.interiorstats"
     },
     "web": {
       "favicon": "./assets/images/favicon.png",
@@ -32,6 +34,7 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "scheme": "interior-stats"
   }
 }
