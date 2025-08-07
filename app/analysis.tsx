@@ -531,7 +531,7 @@ export default function AnalysisScreen() {
             ]}
           >
             <Image
-              source={require('../assets/images/campov3-horizontal.png')}
+              source={{ uri: 'https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg' }}
               style={styles.fieldBackgroundImage}
               resizeMode="cover"
             />
